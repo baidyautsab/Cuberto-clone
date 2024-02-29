@@ -1,0 +1,6 @@
+1. To copy font from a web page
+ctrl + shift + j -> network -> font -> reload
+
+after that the word files will be shown as .woff2 format, which is used in web application 
+windows can't read it. For that we need to convert it to ttf format
+Then install those ttf files

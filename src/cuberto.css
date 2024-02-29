@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Matter";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* main */
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img{
+    width: 100px;
+}
+#right{
+    display: flex;
+    gap: 40px;
+}
+#right a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+#right i{
+    margin-top: 2px;
+    font-weight: 600;
+}
