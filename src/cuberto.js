@@ -1,5 +1,3 @@
-// Shery.mouseFollower();
-// Shery.makeMagnet(".magnet");
 document.addEventListener("DOMContentLoaded", function () {
     const pointer = document.getElementById("pointer");
 
