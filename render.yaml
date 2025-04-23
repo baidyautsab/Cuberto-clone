@@ -1,0 +1,35 @@
+project:
+  name: Cuberto Clone
+  version: 1.0.0
+  description: A modern website clone of Cuberto's design agency website
+
+dependencies:
+  remixicon: 4.2.0
+  video:
+    source: https://cdn.cuberto.com/cb/home/hero/1.mp4
+    type: video/mp4
+
+assets:
+  images:
+    - path: /images/logo.png
+      alt: Logo
+    - path: /images/slide-img1.png
+      alt: Slide Image 1
+    - path: /images/slide-img2.png
+      alt: Slide Image 2
+    - path: /images/slide-img3.jpg
+      alt: Slide Image 3
+
+styles:
+  main_css: cuberto.css
+
+scripts:
+  main_js: cuberto.js
+
+features:
+  - Custom cursor
+  - Video background
+  - Responsive navigation
+  - Featured projects section
+  - Development resources section
+  - Image slides 
